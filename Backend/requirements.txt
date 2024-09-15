@@ -1,0 +1,12 @@
+fastapi
+2uvicorn
+3transformers
+4torch
+5pinecone
+6pinecone-client==4.1.0
+7semantic-router[local]==0.0.45
+8unstructured
+9tiktoken
+10langchain-community
+11groq
+12python-dotenv
