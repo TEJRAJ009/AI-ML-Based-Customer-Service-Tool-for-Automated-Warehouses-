@@ -28,7 +28,7 @@ index = pc.Index(index_name)
 time.sleep(1)
 
 # Load Hugging Face model and tokenizer
-model_name = "dwzhu/e5-base-4k"
+model_name = "sentence-transformers/all-MiniLM-L6-v2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModel.from_pretrained(model_name)
 
