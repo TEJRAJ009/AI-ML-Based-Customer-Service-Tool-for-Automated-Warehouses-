@@ -69,6 +69,10 @@ async def genrate_response(query :str , docs: List[str]) -> str:
         messages=messages
     )
     return chat_response.choices[0].message.content
+    
+@app.get("/")
+async def root():
+    return {"message": "App is running!🎉"}
 
 @app.get("/query")
 async def query_endpoint(query: str, top_k: int = 5):
