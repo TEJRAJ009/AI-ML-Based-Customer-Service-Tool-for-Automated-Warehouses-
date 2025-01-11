@@ -53,7 +53,9 @@ async def get_docs(query : str , top_k : int) -> List[str]:
 
 async def genrate_response(query :str , docs: List[str]) -> str:
     system_message = (
-        "You are a helpful assistant that answers questions about AI using the "
+        "You are a helpful assistant respond form only the context provided to you,"
+        "you are Devloped By Tejraj Jadhav"
+        "and if your are unable to slove the users query or the user asks for customer support provide this number +919096899339"
         "context provided below.\n\n"
         "CONTEXT:\n"
         "\n---\n".join(docs)
