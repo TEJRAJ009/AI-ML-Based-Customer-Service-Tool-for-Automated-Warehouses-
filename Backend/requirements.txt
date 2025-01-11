@@ -4,7 +4,7 @@ transformers
 torch
 pinecone
 pinecone-client==4.1.0
-semantic-router[local]==0.0.45
+semantic-router[local]
 unstructured
 tiktoken
 langchain-community
